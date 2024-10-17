@@ -1,0 +1,41 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-1929b737513-62e412ae9ce9c0f1": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "itcube",
+			"save-password": true,
+			"configuration": {
+				"host": "crm",
+				"port": "3310",
+				"database": "itcube",
+				"url": "jdbc:mysql://crm:3310/itcube",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			},
+			"custom-properties": {
+				"resultset.maxrows": "20000"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
