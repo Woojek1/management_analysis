@@ -1,1 +1,1 @@
-{"resources":{"Scripts/Script.sql":{"default-datasource":"mysql8-1929b737513-62e412ae9ce9c0f1","default-catalog":"itcube"}}}
+{"resources":{"Scripts/Script.sql":{"default-datasource":"mysql8-1929b737513-62e412ae9ce9c0f1","default-catalog":"itcube"},"Scripts/number_of_C_devices_2024.sql":{"default-datasource":"mysql8-1929b737513-62e412ae9ce9c0f1","default-catalog":"itcube"}}}
